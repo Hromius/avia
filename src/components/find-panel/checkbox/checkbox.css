@@ -1,0 +1,18 @@
+.checkbox{
+    font-size: 20px;
+    width: 290px;
+    height: 285px;
+    border-radius: 10px;
+    background-color: rgba(187, 236, 248, 0.575);
+}
+.checkbox span {
+    display: block;
+    padding-top: 20px;
+}
+.checkbox :nth-child(n){
+    margin-left: 15px;
+}
+
+.checkbox :hover :nth-child(n){
+    cursor: pointer;
+}

@@ -1,0 +1,8 @@
+.findPanel{
+    display: flex;
+    justify-content:center;
+
+}
+.resultsBox{
+margin-left: 40px;
+}

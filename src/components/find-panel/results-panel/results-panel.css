@@ -1,0 +1,87 @@
+.element{
+    background-color: rgba(187, 236, 248, 0.575);
+    border-radius: 15px;
+}
+
+.price{
+    margin-top: 15px;
+    display: flex;
+    justify-content:space-between;
+
+}
+.price :nth-child(n){
+    margin-top: 15px;
+}
+
+.price :nth-child(1){
+margin-left: 40px;
+color: #2196F3;  
+}
+
+.price :nth-child(2){
+    margin-right: 40px; 
+    }
+
+
+.info{
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    width: 600px;
+    font-size: 16px;
+    
+
+}
+.info_elem{
+ width: 130px;
+ height: 80px;
+ margin-left: 25px;
+}
+
+.info_elem :nth-child(n){
+    display: inline-block;
+    height: 20px;
+}
+
+.info_elem :nth-child(1){
+    color: gray;
+}
+
+.transfers{
+    color: #4A4A4A !important;
+    margin-top: 5px;
+}
+
+.noTickets{
+    font-size: 17px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.loader{
+    display: flex;
+}
+
+.Spinner{
+    
+    margin: auto;
+    margin-top: 50px;
+    font-size: 120px;
+
+    color: #2196F3; 
+}
+
+.addMoreTickets{
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #2196F3;
+    color: white;
+    font-size: 20px;
+    border: 2px solid rgb(0, 162, 255);
+    border-radius: 10px;
+    text-align: center;
+}
+.addMoreTickets:hover{
+cursor: pointer;
+}
